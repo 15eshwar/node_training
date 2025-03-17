@@ -70,5 +70,4 @@ module.exports ={
     updateProduct,
     createProduct,
     deleteProduct
-
 }
