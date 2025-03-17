@@ -1,2 +1,2 @@
-node_modules  // outside the applications should not be displayed
+node_modules 
 env
