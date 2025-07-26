@@ -6,8 +6,8 @@ dotenv.config()
 
 
 const app = express()
-// A middleware to cvt the json
-app.use(express.json())
+// A middleware to cvt the json     
+app.use(express.json())   
 
 //routes
 app.use('/api/products',productRoute);
@@ -27,3 +27,4 @@ mongoose.connect(process.env.MONGO_CONNECTION_STRING)
   .catch((err) =>{
     console.log('Connection failed',err);
   })
+

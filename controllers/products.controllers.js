@@ -7,7 +7,7 @@ const getProducts =async (req ,res)=>{    // whenever await is used async must b
         res.status(200).json(product);
     
        } catch (error) {
-        res.status(500).json({message: error.message})
+        res.status(500).json({message: error.message}) 
        }
 }
 

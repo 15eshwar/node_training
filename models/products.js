@@ -1,6 +1,5 @@
 const mongoose =require('mongoose');
 // creating schema for the product
-
 const productSchema = mongoose.Schema(
     {
         name_of_Product:{
